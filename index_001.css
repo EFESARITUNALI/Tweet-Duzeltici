@@ -1,0 +1,8 @@
+footer>p>span {
+    cursor: -webkit-grab; cursor: grab;
+    
+}
+
+footer>p:hover {
+    background-color: aquamarine;
+}

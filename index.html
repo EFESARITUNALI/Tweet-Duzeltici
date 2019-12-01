@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Türkçe Tweet Düzeltici</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css">
+    <link rel="stylesheet" href="index_001.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+</head>
+
+<body>
+        
+        <div class="modal loading">
+                <div class="modal-background"></div>
+                <div class="modal-content">
+                  <p class="image is-4by3">
+                    <img src="https://icon-library.net/images/spinner-icon-gif/spinner-icon-gif-10.jpg" alt="">
+                  </p>
+                </div>
+                <button class="modal-close is-large" aria-label="close"></button>
+              </div>
+    <section class="hero is-primary is-bold">
+        <div class="hero-body">
+            <div class="container">
+                <h1 class="title">
+                    Türkçe Tweet Düzeltici
+                </h1>
+                <h2 class="subtitle">
+                    Türkçeniz daha özgür ve zengin olsun
+                </h2>
+            </div>
+        </div>
+    </section>
+    <section class="section">
+        <div class="container">
+            <div class="columns">
+                <div class="column">
+                    <h1 class="title">
+                        Tweet Düzenleyiciye Hoşgeldin
+                    </h1>
+                    <p class="subtitle">
+                        Türkçe önerileri almak için kulanıcı adını gir ve <strong>butona tıkla</strong>!
+                    </p>
+                    <br>
+                    <div class="box">
+                        <div class="field">
+                            <h1 class="subtitle"><b>Bir twitter kullanıcı adı girerek başla</b></h1>
+                            <div class="control">
+                                <input required class="input user-name" type="text" placeholder="acikhack">
+                            </div>
+
+                        </div>
+                        <div class="field is-grouped">
+                            <div class="control">
+                                    <p class="label">
+                                            Kaç tweet görmek isterisn
+                                        </p>
+                                            <div class="select">
+                                                    <select class = "tweet-count">
+                                                      <option value="5">5</option>
+                                                      <option value="10">10</option>
+                                                      <option value="15">15</option>
+                                                      <option value="20">20</option>
+                                                    </select>
+                                                  </div>
+                            </div>
+                        </div>
+                        <div class="field is-grouped is-grouped-right">
+                            <p class="control">
+                                <a onclick="search_user()" class="button is-primary">
+                                    Tweetleri İncelet
+                                </a>
+                            </p>
+                        </div>
+
+
+                    </div>
+                </div>
+                <div class="column tweet-cards">
+                        <div class="card">
+                                <footer class="card-footer">
+                                    <p class="card-footer-item">
+                                        <span onclick="sendTweetNegative" >
+                                            <b>Hatalı tweetler için onu uyar</b>
+                                        </span>
+                                    </p>
+
+                                    <p class="card-footer-item">
+                                            <span onclick="sendTweetAll()">
+                                               <b>Tüm tweetler için ona cevap gönder</b> 
+                                            </span>
+                                        </p>
+                                </footer>
+                            </div><br>  
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="index_001.js"></script>
+</body>
+
+</html>
