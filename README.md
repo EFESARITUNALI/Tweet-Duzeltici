@@ -12,7 +12,7 @@ Stemmer olarak [Zargan Türkçe Kelime Veritabanı](http://st2.zargan.com/duyuru
 Tweet Düzeltici, Twitter'dan aldığı tweetleri kelimelerden oluşan dizilere çevirip her kelimenin kökünü bulur. Eğer kelime yerine Türkçe'si konulabilecek yabancı kökenli bir kelimeyse o kelimeyi düzeltilecek kelimelerin arasına ekler ve düzelti mesajında paylaşır.
 
 ## Nasıl Kullanılır?
-[Bu adrese](https://homato.net/dil_isleme/) girip test etmek istediğiniz hesabın kullanıcı adını girerek başlayın. Kaç tweet görmek istediğinizi seçtikten sonra Tweetleri İncelet butonuna basın. Kullanıcının tweetleri karşınıza gelecek. Onu yalnızca hatalı kullanımları için uyarabilir veya tüm tweetlerine cevap vererek hatasız tweetler için de tebrik edebilirsiniz.
+[Bu adrese] girip test etmek istediğiniz hesabın kullanıcı adını girerek başlayın. Kaç tweet görmek istediğinizi seçtikten sonra Tweetleri İncelet butonuna basın. Kullanıcının tweetleri karşınıza gelecek. Onu yalnızca hatalı kullanımları için uyarabilir veya tüm tweetlerine cevap vererek hatasız tweetler için de tebrik edebilirsiniz.
 
 ## Biz Kimiz?
 
