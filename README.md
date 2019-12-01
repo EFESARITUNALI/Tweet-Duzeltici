@@ -2,4 +2,15 @@
 
 ## Tweet Düzeltici Nedir?
 
-Tweet Düzeltici, sosyal medyada sık sık kullanılan yabancı kökenli kelimelere karşı Türkçe kelimeler kullanmaları için  kullanıcıları uyaran bir bottur. Girdi olarak kontrol edilmek istenen hesabın adını ve  kaç tweetin kontrol edileceğini alır. Son paylaşılan tweetlerden istenilen sayı kadarını inceler ve kontrol edilen hesabı etiketleyerek çıktısını tweetler. Cümlede Türkçe karşılığı olan yabancı kökenli bir sözcük varsa "@... göderinde, ... kelimesi yerine ... kullanımını tercih ederek yazımındaki Türkçeyi zenginleştirebilirsin.", formatında bir paylaşım yapar. Aksi takdirde "@... göderinde gözüme çarpan bir Türkçe yazım tavsiyesi görünmüyor, oldukça güzel.", şeklind bir teşekkür mesajı paylaşır.
+Tweet Düzeltici, sosyal medyada sık sık kullanılan yabancı kökenli kelimelere karşı Türkçe kelimeler kullanmaları için  kullanıcıları uyaran bir bottur. Girdi olarak kontrol edilmek istenen hesabın adını ve  kaç tweetin kontrol edileceğini alır. Son paylaşılan tweetlerden istenilen sayı kadarını inceler ve kontrol edilen hesabı etiketleyerek çıktısını tweetler. Cümlede Türkçe karşılığı olan yabancı kökenli bir sözcük varsa "@... göderinde, ... kelimesi yerine ... kullanımını tercih ederek yazımındaki Türkçeyi zenginleştirebilirsin.", formatında bir paylaşım yapar. Aksi takdirde "@... göderinde gözüme çarpan bir Türkçe yazım tavsiyesi görünmüyor, oldukça güzel.", şeklinde bir teşekkür mesajı paylaşır.
+
+## Nasıl Çalışıyor?
+
+Twee
+
+## Kaynaklar
+Stemmer olarak Zargan Türkçe Kelime Veritabanı'nı (http://st2.zargan.com/duyuru/Zargan_Turkce_Dilbilimsel_Veritabani.html) kullandık. Yabancı kelimelerin Türkçe karşılıklarını bulmada Türk Dil Kurmu'nun Yabancı Sözlere Karşılıklar Kılavuzu'ndan faydalandık. Twitter'dan tweetleri almak için Twitter'ın api'ını (https://github.com/J7mbo/twitter-api-php) kullandık.
+
+## Biz Kimiz?
+
+Tweet Düzeltici, Galatasaray Üniversitesi IEEE Klübü Takımı tarafından. Türkçe dil işleme temalı AçıkHack Hackathonu kapsamında geliştirilmiştir.
